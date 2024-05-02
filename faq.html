@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotline Issues and Solutions</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet" >
+  <style>
+    /* Custom CSS for rounded borders */
+    .table {
+      border-radius: 15px; /* Rounded border */
+      overflow: hidden; /* Prevents the border-radius from clipping the inner content */
+    }
+    th {
+      font-weight: bold; /* Bold font for table headers */
+    }
+    .table-hover tbody tr:hover {
+      background-color: #f5f5f5; /* Lighter background color on hover */
+    }
+    .table-hover tbody tr td {
+      padding: 10px; /* Add padding to cells for better spacing */
+    }
+  </style>
+</head>
+<body>
+
+<!--Nav bar -->
+
+<nav class="navbar navbar-expand-lg navbar ">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h2 class="handwriting text-center border border-info p-2 mb-2 border-opacity-75 title"> FIRST PAGES BOOK SHOP</h2>
+    <div class="d-flex" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a href="home.html" class="nav-item btn btn-info me-md-3">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="nav-item btn btn-info me-md-3">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="prices.html" class="nav-item btn btn-info me-md-3">Prices</a>
+        </li>
+        <li class="nav-item">
+          <a href="books.html" class="nav-item btn btn-info me-md-3">Buy books</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 border-info" type="search" placeholder="Search Book" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--Nav end -->
+
+
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+  <div class="table-responsive"> <!-- Responsive table wrapper -->
+    <table class="table table-hover">
+      <thead class="text-center">
+        <tr>
+          <th scope="col">Issue</th>
+          <th scope="col">Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Payment declined</td>
+          <td>Verify card details and try again. If the issue persists, contact your bank for assistance.</td>
+        </tr>
+        <tr>
+          <td>Transaction stuck in processing</td>
+          <td>Contact the customer support of the payment gateway provider and provide transaction details for resolution.</td>
+        </tr>
+        <tr>
+          <td>Double charging</td>
+          <td>Contact the customer support of the payment gateway provider and request a refund for the duplicate transaction.</td>
+        </tr>
+        <tr>
+          <td>Payment gateway timeout</td>
+          <td>Refresh the page and try again. If the issue persists, try again later or choose an alternative payment method.</td>
+        </tr>
+        <tr>
+          <td>Invalid card information</td>
+          <td>Check the card details entered and correct any errors. If the issue persists, try using a different card or contact your bank.</td>
+        </tr>
+        <tr>
+          <td>Payment gateway not supported</td>
+          <td>Choose an alternative payment method supported by the book store.</td>
+        </tr>
+        <tr>
+          <td>Unexpected error during payment</td>
+          <td>Refresh the page and try again. If the issue persists, contact the customer support of the book store for assistance.</td>
+        </tr>
+        <tr>
+          <td>Security concerns</td>
+          <td>Ensure that the website is secure (https://) and the payment gateway is reputable. Avoid sharing sensitive information over unsecured networks.</td>
+        </tr>
+        <tr>
+          <td>Payment confirmation email not received</td>
+          <td>Check your spam/junk folder. If not found, contact the customer support of the book store to resend the confirmation email.</td>
+        </tr>
+        <tr>
+          <td>Delayed refund</td>
+          <td>Contact the customer support of the book store or payment gateway provider to inquire about the status of the refund.</td>
+        </tr>
+      </tbody>
+    </table>
+     <a href="prices.html" class=" btn btn-danger me-md-3 float-end" style="width: 200px;">Go back</a>
+      <br><br><br>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--footer start -->
+<div class="bg-black p-4 text-white">
+  <div class="container ">
+
+  <table class="table table-borderless">
+        <thead >
+          <tr >
+            <td class="bg-transparent text-white" scope="col">
+              <h2> First Pages </h2> 
+            </td>
+            <td class="bg-transparent text-white float-end" scope="col">
+              <i class="bi bi-facebook me-md-3"></i>
+              <i class="bi bi-twitter me-md-3"></i>
+              <i class="bi bi-youtube me-md-3"></i>
+              <i class="bi bi-telegram me-md-3"></i>
+            </td>
+          </tr>
+        </thead>
+  </table>
+
+  <hr>
+
+  <table class="table table-borderless">
+        <thead >
+          <tr >
+            <td class="bg-transparent text-white" scope="col">
+                <p>&copy; 2024 First Pages All rights reserved </p>
+            </td>
+            <td class="bg-transparent text-white float-end" scope="col">
+
+
+            <a href="terms.html" >Team Of Services</a> <div class="vr"></div> <a href="contactus.html">contact us</a>
+            </td>
+          </tr>
+        </thead>
+  </table>
+  </div>
+</div>
+
+<!--footer end -->
+
+</body>
+</html>

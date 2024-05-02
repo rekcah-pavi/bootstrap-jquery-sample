@@ -1,0 +1,22 @@
+body{
+    background-image:url("https://c1.wallpaperflare.com/preview/207/957/147/dark-gloomy-books-pages-paper-read.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#h{
+    font-size: 50px;
+   text-align: center;
+   color:rgb(96, 158, 195);
+            font-family: impact;
+}
+.table{
+    color:white;
+}
+h2{
+    color:gray;
+}
+
+.handwriting {
+  font-family: cursive;
+}
