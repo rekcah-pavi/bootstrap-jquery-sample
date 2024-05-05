@@ -1,1 +1,5 @@
-<script>window.location.href = "/home.html";</script>
+<script>
+  var currentPath = window.location.pathname;
+  var newPath = currentPath.replace("index.html", "home.html");
+  window.location.replace(newPath);
+</script>
